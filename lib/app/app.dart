@@ -5,6 +5,7 @@ import '../features/authentication/providers/auth_provider.dart';
 import '../features/nfc/providers/nfc_provider.dart';
 import '../features/cards/providers/cards_provider.dart';
 import '../features/settings/providers/settings_provider.dart';
+import '../features/balance/providers/balance_provider.dart';
 import 'routes.dart';
 import 'themes.dart';
 
@@ -19,6 +20,7 @@ class NFCCloneApp extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => NFCProvider()),
         ChangeNotifierProvider(create: (_) => CardsProvider()),
         ChangeNotifierProvider(create: (_) => SettingsProvider()),
+        ChangeNotifierProvider(create: (_) => BalanceProvider()),
       ],
       child: Consumer<SettingsProvider>(
         builder: (context, settingsProvider, child) {

@@ -77,6 +77,16 @@ dependencies:
   # Device Info
   device_info_plus: ^9.1.1
   package_info_plus: ^5.0.1
+  
+  # Financial Features
+  decimal: ^2.3.3
+  money2: ^5.2.1
+  
+  # Notifications
+  flutter_local_notifications: ^16.1.0
+  
+  # Additional utilities
+  timezone: ^0.9.2
 
 dev_dependencies:
   flutter_test:
