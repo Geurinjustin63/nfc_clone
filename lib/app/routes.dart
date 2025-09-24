@@ -11,6 +11,9 @@ import '../features/settings/screens/settings_screen.dart';
 import '../features/settings/screens/security_settings_screen.dart';
 import '../features/analytics/screens/analytics_screen.dart';
 import '../features/balance/screens/balance_dashboard_screen.dart';
+import '../features/balance/screens/transaction_history_screen.dart';
+import '../features/balance/screens/balance_settings_screen.dart';
+import '../features/balance/screens/balance_dashboard_screen.dart';
 
 class AppRoutes {
   // Route names
@@ -25,6 +28,9 @@ class AppRoutes {
   static const String settings = '/settings';
   static const String securitySettings = '/security-settings';
   static const String analytics = '/analytics';
+  static const String balanceDashboard = '/balance-dashboard';
+  static const String transactionHistory = '/transaction-history';
+  static const String balanceSettings = '/balance-settings';
   static const String balanceDashboard = '/balance-dashboard';
 
   // Routes map
@@ -41,6 +47,9 @@ class AppRoutes {
       settings: (context) => const SettingsScreen(),
       securitySettings: (context) => const SecuritySettingsScreen(),
       analytics: (context) => const AnalyticsScreen(),
+      balanceDashboard: (context) => const BalanceDashboardScreen(),
+      transactionHistory: (context) => const TransactionHistoryScreen(),
+      balanceSettings: (context) => const BalanceSettingsScreen(),
       balanceDashboard: (context) => const BalanceDashboardScreen(),
     };
   }

@@ -70,6 +70,10 @@ dependencies:
   # Charts & Visualization
   fl_chart: ^0.65.0
   
+  # Financial & Balance Features
+  decimal: ^2.3.3
+  money2: ^5.2.1
+  
   # Icons and Assets
   flutter_svg: ^2.0.9
   cached_network_image: ^3.3.0
@@ -77,6 +81,15 @@ dependencies:
   # Device Info
   device_info_plus: ^9.1.1
   package_info_plus: ^5.0.1
+  
+  # Notifications
+  flutter_local_notifications: ^17.2.1+2
+  
+  # PDF Generation
+  pdf: ^3.10.7
+  
+  # Excel Export
+  syncfusion_flutter_xlsio: ^23.2.7
   
   # Financial Features
   decimal: ^2.3.3
